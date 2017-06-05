@@ -1,0 +1,220 @@
+<ERROR_BLOCK>
+errorInfo: Undefined variable: goods_id
+errorFile: IWEB_PATH/controllers/weixin.php
+errorLine: 23
+errorCode: 8
+errorTime: 2017-02-27 11:41:32
+#0 : Weixin->show()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Missing argument 1 for wechat::responseMsg(), called in /usr/share/nginx/html/iwebshop/controllers/weixin.php on line 28 and defined
+errorFile: IWEB_PATH/controllers/wechat.php
+errorLine: 19
+errorCode: 2
+errorTime: 2017-02-27 11:41:32
+#0 IWEB_PATH/controllers/weixin.php(28): wechat->responseMsg()
+#1 : Weixin->show()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: goods_id
+errorFile: IWEB_PATH/controllers/weixin.php
+errorLine: 23
+errorCode: 8
+errorTime: 2017-02-27 11:41:40
+#0 : Weixin->show()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Missing argument 1 for wechat::responseMsg(), called in /usr/share/nginx/html/iwebshop/controllers/weixin.php on line 28 and defined
+errorFile: IWEB_PATH/controllers/wechat.php
+errorLine: 19
+errorCode: 2
+errorTime: 2017-02-27 11:41:40
+#0 IWEB_PATH/controllers/weixin.php(28): wechat->responseMsg()
+#1 : Weixin->show()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: goods_id
+errorFile: IWEB_PATH/controllers/weixin.php
+errorLine: 23
+errorCode: 8
+errorTime: 2017-02-27 11:41:50
+#0 : Weixin->show()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Missing argument 1 for wechat::responseMsg(), called in /usr/share/nginx/html/iwebshop/controllers/weixin.php on line 28 and defined
+errorFile: IWEB_PATH/controllers/wechat.php
+errorLine: 19
+errorCode: 2
+errorTime: 2017-02-27 11:41:50
+#0 IWEB_PATH/controllers/weixin.php(28): wechat->responseMsg()
+#1 : Weixin->show()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: HTTP_RAW_POST_DATA
+errorFile: IWEB_PATH/controllers/wechat.php
+errorLine: 22
+errorCode: 8
+errorTime: 2017-02-27 11:41:50
+#0 IWEB_PATH/controllers/weixin.php(28): wechat->responseMsg()
+#1 : Weixin->show()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: goods_id
+errorFile: IWEB_PATH/controllers/weixin.php
+errorLine: 23
+errorCode: 8
+errorTime: 2017-02-27 11:41:51
+#0 : Weixin->show()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Missing argument 1 for wechat::responseMsg(), called in /usr/share/nginx/html/iwebshop/controllers/weixin.php on line 28 and defined
+errorFile: IWEB_PATH/controllers/wechat.php
+errorLine: 19
+errorCode: 2
+errorTime: 2017-02-27 11:41:51
+#0 IWEB_PATH/controllers/weixin.php(28): wechat->responseMsg()
+#1 : Weixin->show()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: HTTP_RAW_POST_DATA
+errorFile: IWEB_PATH/controllers/wechat.php
+errorLine: 22
+errorCode: 8
+errorTime: 2017-02-27 11:41:51
+#0 IWEB_PATH/controllers/weixin.php(28): wechat->responseMsg()
+#1 : Weixin->show()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: goods_id
+errorFile: IWEB_PATH/controllers/weixin.php
+errorLine: 23
+errorCode: 8
+errorTime: 2017-02-27 11:46:42
+#0 : Weixin->show()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: goods_id
+errorFile: IWEB_PATH/controllers/weixin.php
+errorLine: 23
+errorCode: 8
+errorTime: 2017-02-27 11:48:04
+#0 : Weixin->show()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: HTTP_RAW_POST_DATA
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 26
+errorCode: 8
+errorTime: 2017-02-27 16:29:48
+#0 IWEB_PATH/controllers/site.php(30): Wechat->responseMsg()
+#1 : Site->init1()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(init1)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: HTTP_RAW_POST_DATA
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 26
+errorCode: 8
+errorTime: 2017-02-27 16:30:21
+#0 IWEB_PATH/controllers/site.php(30): Wechat->responseMsg()
+#1 : Site->init1()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(init1)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: HTTP_RAW_POST_DATA
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 26
+errorCode: 8
+errorTime: 2017-02-27 16:32:15
+#0 IWEB_PATH/classes/wechat.php(19): Wechat->responseMsg()
+#1 IWEB_PATH/controllers/site.php(30): Wechat->valid()
+#2 : Site->init1()
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(init1)
+#6 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+

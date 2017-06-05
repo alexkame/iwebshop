@@ -1,0 +1,1002 @@
+<ERROR_BLOCK>
+errorInfo: Missing argument 1 for Weixin::index()
+errorFile: IWEB_PATH/controllers/weixin.php
+errorLine: 20
+errorCode: 2
+errorTime: 2017-02-24 18:55:02
+#0 : Weixin->index()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(index)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: echostr
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 15
+errorCode: 8
+errorTime: 2017-02-24 19:03:40
+#0 IWEB_PATH/classes/wechat.php(9): wechat->valid()
+#1 IWEB_PATH/lib/iweb.php(98): include(IWEB_PATH/classes/wechat.php)
+#2 : IWeb::autoload(wechat)
+#3 IWEB_PATH/controllers/weixin.php(22): spl_autoload_call(wechat)
+#4 IWEB_PATH/controllers/weixin.php(36): Weixin->index()
+#5 : Weixin->show()
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#9 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: signature
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 70
+errorCode: 8
+errorTime: 2017-02-24 19:03:40
+#0 IWEB_PATH/classes/wechat.php(18): wechat->checkSignature()
+#1 IWEB_PATH/classes/wechat.php(9): wechat->valid()
+#2 IWEB_PATH/lib/iweb.php(98): include(IWEB_PATH/classes/wechat.php)
+#3 : IWeb::autoload(wechat)
+#4 IWEB_PATH/controllers/weixin.php(22): spl_autoload_call(wechat)
+#5 IWEB_PATH/controllers/weixin.php(36): Weixin->index()
+#6 : Weixin->show()
+#7 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#8 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#9 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#10 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#11 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: timestamp
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 71
+errorCode: 8
+errorTime: 2017-02-24 19:03:40
+#0 IWEB_PATH/classes/wechat.php(18): wechat->checkSignature()
+#1 IWEB_PATH/classes/wechat.php(9): wechat->valid()
+#2 IWEB_PATH/lib/iweb.php(98): include(IWEB_PATH/classes/wechat.php)
+#3 : IWeb::autoload(wechat)
+#4 IWEB_PATH/controllers/weixin.php(22): spl_autoload_call(wechat)
+#5 IWEB_PATH/controllers/weixin.php(36): Weixin->index()
+#6 : Weixin->show()
+#7 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#8 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#9 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#10 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#11 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: nonce
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 72
+errorCode: 8
+errorTime: 2017-02-24 19:03:40
+#0 IWEB_PATH/classes/wechat.php(18): wechat->checkSignature()
+#1 IWEB_PATH/classes/wechat.php(9): wechat->valid()
+#2 IWEB_PATH/lib/iweb.php(98): include(IWEB_PATH/classes/wechat.php)
+#3 : IWeb::autoload(wechat)
+#4 IWEB_PATH/controllers/weixin.php(22): spl_autoload_call(wechat)
+#5 IWEB_PATH/controllers/weixin.php(36): Weixin->index()
+#6 : Weixin->show()
+#7 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#8 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#9 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#10 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#11 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: HTTP_RAW_POST_DATA
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 27
+errorCode: 8
+errorTime: 2017-02-24 19:03:40
+#0 IWEB_PATH/controllers/weixin.php(23): wechat->responseMsg()
+#1 IWEB_PATH/controllers/weixin.php(36): Weixin->index()
+#2 : Weixin->show()
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#6 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: echostr
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 15
+errorCode: 8
+errorTime: 2017-02-24 19:03:43
+#0 IWEB_PATH/classes/wechat.php(9): wechat->valid()
+#1 IWEB_PATH/lib/iweb.php(98): include(IWEB_PATH/classes/wechat.php)
+#2 : IWeb::autoload(wechat)
+#3 IWEB_PATH/controllers/weixin.php(22): spl_autoload_call(wechat)
+#4 IWEB_PATH/controllers/weixin.php(36): Weixin->index()
+#5 : Weixin->show()
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#9 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: signature
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 70
+errorCode: 8
+errorTime: 2017-02-24 19:03:43
+#0 IWEB_PATH/classes/wechat.php(18): wechat->checkSignature()
+#1 IWEB_PATH/classes/wechat.php(9): wechat->valid()
+#2 IWEB_PATH/lib/iweb.php(98): include(IWEB_PATH/classes/wechat.php)
+#3 : IWeb::autoload(wechat)
+#4 IWEB_PATH/controllers/weixin.php(22): spl_autoload_call(wechat)
+#5 IWEB_PATH/controllers/weixin.php(36): Weixin->index()
+#6 : Weixin->show()
+#7 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#8 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#9 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#10 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#11 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: timestamp
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 71
+errorCode: 8
+errorTime: 2017-02-24 19:03:43
+#0 IWEB_PATH/classes/wechat.php(18): wechat->checkSignature()
+#1 IWEB_PATH/classes/wechat.php(9): wechat->valid()
+#2 IWEB_PATH/lib/iweb.php(98): include(IWEB_PATH/classes/wechat.php)
+#3 : IWeb::autoload(wechat)
+#4 IWEB_PATH/controllers/weixin.php(22): spl_autoload_call(wechat)
+#5 IWEB_PATH/controllers/weixin.php(36): Weixin->index()
+#6 : Weixin->show()
+#7 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#8 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#9 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#10 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#11 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: nonce
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 72
+errorCode: 8
+errorTime: 2017-02-24 19:03:43
+#0 IWEB_PATH/classes/wechat.php(18): wechat->checkSignature()
+#1 IWEB_PATH/classes/wechat.php(9): wechat->valid()
+#2 IWEB_PATH/lib/iweb.php(98): include(IWEB_PATH/classes/wechat.php)
+#3 : IWeb::autoload(wechat)
+#4 IWEB_PATH/controllers/weixin.php(22): spl_autoload_call(wechat)
+#5 IWEB_PATH/controllers/weixin.php(36): Weixin->index()
+#6 : Weixin->show()
+#7 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#8 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#9 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#10 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#11 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: HTTP_RAW_POST_DATA
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 27
+errorCode: 8
+errorTime: 2017-02-24 19:03:43
+#0 IWEB_PATH/controllers/weixin.php(23): wechat->responseMsg()
+#1 IWEB_PATH/controllers/weixin.php(36): Weixin->index()
+#2 : Weixin->show()
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#6 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: echostr
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 15
+errorCode: 8
+errorTime: 2017-02-24 19:04:56
+#0 IWEB_PATH/classes/wechat.php(9): wechat->valid()
+#1 IWEB_PATH/lib/iweb.php(98): include(IWEB_PATH/classes/wechat.php)
+#2 : IWeb::autoload(wechat)
+#3 IWEB_PATH/controllers/weixin.php(22): spl_autoload_call(wechat)
+#4 IWEB_PATH/controllers/weixin.php(36): Weixin->index(upload/2015/06/16/rBEhWVNGY38IAAAAAAPKQAuJFBQAALjpABK1NEAA8pY512.jpg)
+#5 : Weixin->show()
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#9 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: signature
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 70
+errorCode: 8
+errorTime: 2017-02-24 19:04:56
+#0 IWEB_PATH/classes/wechat.php(18): wechat->checkSignature()
+#1 IWEB_PATH/classes/wechat.php(9): wechat->valid()
+#2 IWEB_PATH/lib/iweb.php(98): include(IWEB_PATH/classes/wechat.php)
+#3 : IWeb::autoload(wechat)
+#4 IWEB_PATH/controllers/weixin.php(22): spl_autoload_call(wechat)
+#5 IWEB_PATH/controllers/weixin.php(36): Weixin->index(upload/2015/06/16/rBEhWVNGY38IAAAAAAPKQAuJFBQAALjpABK1NEAA8pY512.jpg)
+#6 : Weixin->show()
+#7 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#8 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#9 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#10 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#11 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: timestamp
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 71
+errorCode: 8
+errorTime: 2017-02-24 19:04:56
+#0 IWEB_PATH/classes/wechat.php(18): wechat->checkSignature()
+#1 IWEB_PATH/classes/wechat.php(9): wechat->valid()
+#2 IWEB_PATH/lib/iweb.php(98): include(IWEB_PATH/classes/wechat.php)
+#3 : IWeb::autoload(wechat)
+#4 IWEB_PATH/controllers/weixin.php(22): spl_autoload_call(wechat)
+#5 IWEB_PATH/controllers/weixin.php(36): Weixin->index(upload/2015/06/16/rBEhWVNGY38IAAAAAAPKQAuJFBQAALjpABK1NEAA8pY512.jpg)
+#6 : Weixin->show()
+#7 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#8 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#9 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#10 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#11 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: nonce
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 72
+errorCode: 8
+errorTime: 2017-02-24 19:04:56
+#0 IWEB_PATH/classes/wechat.php(18): wechat->checkSignature()
+#1 IWEB_PATH/classes/wechat.php(9): wechat->valid()
+#2 IWEB_PATH/lib/iweb.php(98): include(IWEB_PATH/classes/wechat.php)
+#3 : IWeb::autoload(wechat)
+#4 IWEB_PATH/controllers/weixin.php(22): spl_autoload_call(wechat)
+#5 IWEB_PATH/controllers/weixin.php(36): Weixin->index(upload/2015/06/16/rBEhWVNGY38IAAAAAAPKQAuJFBQAALjpABK1NEAA8pY512.jpg)
+#6 : Weixin->show()
+#7 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#8 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#9 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#10 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#11 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: HTTP_RAW_POST_DATA
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 27
+errorCode: 8
+errorTime: 2017-02-24 19:04:56
+#0 IWEB_PATH/controllers/weixin.php(23): wechat->responseMsg(upload/2015/06/16/rBEhWVNGY38IAAAAAAPKQAuJFBQAALjpABK1NEAA8pY512.jpg)
+#1 IWEB_PATH/controllers/weixin.php(36): Weixin->index(upload/2015/06/16/rBEhWVNGY38IAAAAAAPKQAuJFBQAALjpABK1NEAA8pY512.jpg)
+#2 : Weixin->show()
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#6 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: echostr
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 15
+errorCode: 8
+errorTime: 2017-02-24 19:05:03
+#0 IWEB_PATH/classes/wechat.php(9): wechat->valid()
+#1 IWEB_PATH/lib/iweb.php(98): include(IWEB_PATH/classes/wechat.php)
+#2 : IWeb::autoload(wechat)
+#3 IWEB_PATH/controllers/weixin.php(22): spl_autoload_call(wechat)
+#4 IWEB_PATH/controllers/weixin.php(36): Weixin->index()
+#5 : Weixin->show()
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#9 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: echostr
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 15
+errorCode: 8
+errorTime: 2017-02-24 19:05:06
+#0 IWEB_PATH/classes/wechat.php(9): wechat->valid()
+#1 IWEB_PATH/lib/iweb.php(98): include(IWEB_PATH/classes/wechat.php)
+#2 : IWeb::autoload(wechat)
+#3 IWEB_PATH/controllers/weixin.php(22): spl_autoload_call(wechat)
+#4 IWEB_PATH/controllers/weixin.php(36): Weixin->index(upload/2015/06/16/rBEhWVNGY38IAAAAAAPKQAuJFBQAALjpABK1NEAA8pY512.jpg)
+#5 : Weixin->show()
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#9 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: signature
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 70
+errorCode: 8
+errorTime: 2017-02-24 19:05:06
+#0 IWEB_PATH/classes/wechat.php(18): wechat->checkSignature()
+#1 IWEB_PATH/classes/wechat.php(9): wechat->valid()
+#2 IWEB_PATH/lib/iweb.php(98): include(IWEB_PATH/classes/wechat.php)
+#3 : IWeb::autoload(wechat)
+#4 IWEB_PATH/controllers/weixin.php(22): spl_autoload_call(wechat)
+#5 IWEB_PATH/controllers/weixin.php(36): Weixin->index(upload/2015/06/16/rBEhWVNGY38IAAAAAAPKQAuJFBQAALjpABK1NEAA8pY512.jpg)
+#6 : Weixin->show()
+#7 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#8 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#9 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#10 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#11 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: timestamp
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 71
+errorCode: 8
+errorTime: 2017-02-24 19:05:06
+#0 IWEB_PATH/classes/wechat.php(18): wechat->checkSignature()
+#1 IWEB_PATH/classes/wechat.php(9): wechat->valid()
+#2 IWEB_PATH/lib/iweb.php(98): include(IWEB_PATH/classes/wechat.php)
+#3 : IWeb::autoload(wechat)
+#4 IWEB_PATH/controllers/weixin.php(22): spl_autoload_call(wechat)
+#5 IWEB_PATH/controllers/weixin.php(36): Weixin->index(upload/2015/06/16/rBEhWVNGY38IAAAAAAPKQAuJFBQAALjpABK1NEAA8pY512.jpg)
+#6 : Weixin->show()
+#7 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#8 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#9 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#10 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#11 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: nonce
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 72
+errorCode: 8
+errorTime: 2017-02-24 19:05:06
+#0 IWEB_PATH/classes/wechat.php(18): wechat->checkSignature()
+#1 IWEB_PATH/classes/wechat.php(9): wechat->valid()
+#2 IWEB_PATH/lib/iweb.php(98): include(IWEB_PATH/classes/wechat.php)
+#3 : IWeb::autoload(wechat)
+#4 IWEB_PATH/controllers/weixin.php(22): spl_autoload_call(wechat)
+#5 IWEB_PATH/controllers/weixin.php(36): Weixin->index(upload/2015/06/16/rBEhWVNGY38IAAAAAAPKQAuJFBQAALjpABK1NEAA8pY512.jpg)
+#6 : Weixin->show()
+#7 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#8 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#9 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#10 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#11 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: HTTP_RAW_POST_DATA
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 27
+errorCode: 8
+errorTime: 2017-02-24 19:05:06
+#0 IWEB_PATH/controllers/weixin.php(23): wechat->responseMsg(upload/2015/06/16/rBEhWVNGY38IAAAAAAPKQAuJFBQAALjpABK1NEAA8pY512.jpg)
+#1 IWEB_PATH/controllers/weixin.php(36): Weixin->index(upload/2015/06/16/rBEhWVNGY38IAAAAAAPKQAuJFBQAALjpABK1NEAA8pY512.jpg)
+#2 : Weixin->show()
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#6 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: echostr
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 15
+errorCode: 8
+errorTime: 2017-02-24 19:05:06
+#0 IWEB_PATH/classes/wechat.php(9): wechat->valid()
+#1 IWEB_PATH/lib/iweb.php(98): include(IWEB_PATH/classes/wechat.php)
+#2 : IWeb::autoload(wechat)
+#3 IWEB_PATH/controllers/weixin.php(22): spl_autoload_call(wechat)
+#4 IWEB_PATH/controllers/weixin.php(36): Weixin->index(upload/2015/06/16/rBEhWVNGY38IAAAAAAPKQAuJFBQAALjpABK1NEAA8pY512.jpg)
+#5 : Weixin->show()
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#9 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: signature
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 70
+errorCode: 8
+errorTime: 2017-02-24 19:05:06
+#0 IWEB_PATH/classes/wechat.php(18): wechat->checkSignature()
+#1 IWEB_PATH/classes/wechat.php(9): wechat->valid()
+#2 IWEB_PATH/lib/iweb.php(98): include(IWEB_PATH/classes/wechat.php)
+#3 : IWeb::autoload(wechat)
+#4 IWEB_PATH/controllers/weixin.php(22): spl_autoload_call(wechat)
+#5 IWEB_PATH/controllers/weixin.php(36): Weixin->index(upload/2015/06/16/rBEhWVNGY38IAAAAAAPKQAuJFBQAALjpABK1NEAA8pY512.jpg)
+#6 : Weixin->show()
+#7 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#8 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#9 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#10 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#11 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: timestamp
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 71
+errorCode: 8
+errorTime: 2017-02-24 19:05:06
+#0 IWEB_PATH/classes/wechat.php(18): wechat->checkSignature()
+#1 IWEB_PATH/classes/wechat.php(9): wechat->valid()
+#2 IWEB_PATH/lib/iweb.php(98): include(IWEB_PATH/classes/wechat.php)
+#3 : IWeb::autoload(wechat)
+#4 IWEB_PATH/controllers/weixin.php(22): spl_autoload_call(wechat)
+#5 IWEB_PATH/controllers/weixin.php(36): Weixin->index(upload/2015/06/16/rBEhWVNGY38IAAAAAAPKQAuJFBQAALjpABK1NEAA8pY512.jpg)
+#6 : Weixin->show()
+#7 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#8 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#9 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#10 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#11 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: nonce
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 72
+errorCode: 8
+errorTime: 2017-02-24 19:05:06
+#0 IWEB_PATH/classes/wechat.php(18): wechat->checkSignature()
+#1 IWEB_PATH/classes/wechat.php(9): wechat->valid()
+#2 IWEB_PATH/lib/iweb.php(98): include(IWEB_PATH/classes/wechat.php)
+#3 : IWeb::autoload(wechat)
+#4 IWEB_PATH/controllers/weixin.php(22): spl_autoload_call(wechat)
+#5 IWEB_PATH/controllers/weixin.php(36): Weixin->index(upload/2015/06/16/rBEhWVNGY38IAAAAAAPKQAuJFBQAALjpABK1NEAA8pY512.jpg)
+#6 : Weixin->show()
+#7 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#8 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#9 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#10 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#11 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: HTTP_RAW_POST_DATA
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 27
+errorCode: 8
+errorTime: 2017-02-24 19:05:06
+#0 IWEB_PATH/controllers/weixin.php(23): wechat->responseMsg(upload/2015/06/16/rBEhWVNGY38IAAAAAAPKQAuJFBQAALjpABK1NEAA8pY512.jpg)
+#1 IWEB_PATH/controllers/weixin.php(36): Weixin->index(upload/2015/06/16/rBEhWVNGY38IAAAAAAPKQAuJFBQAALjpABK1NEAA8pY512.jpg)
+#2 : Weixin->show()
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#6 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: echostr
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 15
+errorCode: 8
+errorTime: 2017-02-24 19:05:06
+#0 IWEB_PATH/classes/wechat.php(9): wechat->valid()
+#1 IWEB_PATH/lib/iweb.php(98): include(IWEB_PATH/classes/wechat.php)
+#2 : IWeb::autoload(wechat)
+#3 IWEB_PATH/controllers/weixin.php(22): spl_autoload_call(wechat)
+#4 IWEB_PATH/controllers/weixin.php(36): Weixin->index(upload/2015/06/16/rBEhWVNGY38IAAAAAAPKQAuJFBQAALjpABK1NEAA8pY512.jpg)
+#5 : Weixin->show()
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#9 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: signature
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 70
+errorCode: 8
+errorTime: 2017-02-24 19:05:06
+#0 IWEB_PATH/classes/wechat.php(18): wechat->checkSignature()
+#1 IWEB_PATH/classes/wechat.php(9): wechat->valid()
+#2 IWEB_PATH/lib/iweb.php(98): include(IWEB_PATH/classes/wechat.php)
+#3 : IWeb::autoload(wechat)
+#4 IWEB_PATH/controllers/weixin.php(22): spl_autoload_call(wechat)
+#5 IWEB_PATH/controllers/weixin.php(36): Weixin->index(upload/2015/06/16/rBEhWVNGY38IAAAAAAPKQAuJFBQAALjpABK1NEAA8pY512.jpg)
+#6 : Weixin->show()
+#7 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#8 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#9 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#10 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#11 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: timestamp
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 71
+errorCode: 8
+errorTime: 2017-02-24 19:05:06
+#0 IWEB_PATH/classes/wechat.php(18): wechat->checkSignature()
+#1 IWEB_PATH/classes/wechat.php(9): wechat->valid()
+#2 IWEB_PATH/lib/iweb.php(98): include(IWEB_PATH/classes/wechat.php)
+#3 : IWeb::autoload(wechat)
+#4 IWEB_PATH/controllers/weixin.php(22): spl_autoload_call(wechat)
+#5 IWEB_PATH/controllers/weixin.php(36): Weixin->index(upload/2015/06/16/rBEhWVNGY38IAAAAAAPKQAuJFBQAALjpABK1NEAA8pY512.jpg)
+#6 : Weixin->show()
+#7 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#8 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#9 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#10 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#11 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: nonce
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 72
+errorCode: 8
+errorTime: 2017-02-24 19:05:06
+#0 IWEB_PATH/classes/wechat.php(18): wechat->checkSignature()
+#1 IWEB_PATH/classes/wechat.php(9): wechat->valid()
+#2 IWEB_PATH/lib/iweb.php(98): include(IWEB_PATH/classes/wechat.php)
+#3 : IWeb::autoload(wechat)
+#4 IWEB_PATH/controllers/weixin.php(22): spl_autoload_call(wechat)
+#5 IWEB_PATH/controllers/weixin.php(36): Weixin->index(upload/2015/06/16/rBEhWVNGY38IAAAAAAPKQAuJFBQAALjpABK1NEAA8pY512.jpg)
+#6 : Weixin->show()
+#7 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#8 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#9 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#10 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#11 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: HTTP_RAW_POST_DATA
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 27
+errorCode: 8
+errorTime: 2017-02-24 19:05:06
+#0 IWEB_PATH/controllers/weixin.php(23): wechat->responseMsg(upload/2015/06/16/rBEhWVNGY38IAAAAAAPKQAuJFBQAALjpABK1NEAA8pY512.jpg)
+#1 IWEB_PATH/controllers/weixin.php(36): Weixin->index(upload/2015/06/16/rBEhWVNGY38IAAAAAAPKQAuJFBQAALjpABK1NEAA8pY512.jpg)
+#2 : Weixin->show()
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#6 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: goods_id
+errorFile: IWEB_PATH/controllers/weixin.php
+errorLine: 23
+errorCode: 8
+errorTime: 2017-02-24 19:11:49
+#0 : Weixin->show()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: echostr
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 15
+errorCode: 8
+errorTime: 2017-02-24 19:11:49
+#0 IWEB_PATH/classes/wechat.php(9): wechat->valid()
+#1 IWEB_PATH/lib/iweb.php(98): include(IWEB_PATH/classes/wechat.php)
+#2 : IWeb::autoload(wechat)
+#3 IWEB_PATH/controllers/weixin.php(26): spl_autoload_call(wechat)
+#4 : Weixin->show()
+#5 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#6 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#7 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#8 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#9 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: signature
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 70
+errorCode: 8
+errorTime: 2017-02-24 19:11:49
+#0 IWEB_PATH/classes/wechat.php(18): wechat->checkSignature()
+#1 IWEB_PATH/classes/wechat.php(9): wechat->valid()
+#2 IWEB_PATH/lib/iweb.php(98): include(IWEB_PATH/classes/wechat.php)
+#3 : IWeb::autoload(wechat)
+#4 IWEB_PATH/controllers/weixin.php(26): spl_autoload_call(wechat)
+#5 : Weixin->show()
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#9 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: timestamp
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 71
+errorCode: 8
+errorTime: 2017-02-24 19:11:49
+#0 IWEB_PATH/classes/wechat.php(18): wechat->checkSignature()
+#1 IWEB_PATH/classes/wechat.php(9): wechat->valid()
+#2 IWEB_PATH/lib/iweb.php(98): include(IWEB_PATH/classes/wechat.php)
+#3 : IWeb::autoload(wechat)
+#4 IWEB_PATH/controllers/weixin.php(26): spl_autoload_call(wechat)
+#5 : Weixin->show()
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#9 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: nonce
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 72
+errorCode: 8
+errorTime: 2017-02-24 19:11:49
+#0 IWEB_PATH/classes/wechat.php(18): wechat->checkSignature()
+#1 IWEB_PATH/classes/wechat.php(9): wechat->valid()
+#2 IWEB_PATH/lib/iweb.php(98): include(IWEB_PATH/classes/wechat.php)
+#3 : IWeb::autoload(wechat)
+#4 IWEB_PATH/controllers/weixin.php(26): spl_autoload_call(wechat)
+#5 : Weixin->show()
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#9 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: HTTP_RAW_POST_DATA
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 27
+errorCode: 8
+errorTime: 2017-02-24 19:11:49
+#0 IWEB_PATH/controllers/weixin.php(27): wechat->responseMsg()
+#1 : Weixin->show()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: goods_id
+errorFile: IWEB_PATH/controllers/weixin.php
+errorLine: 23
+errorCode: 8
+errorTime: 2017-02-24 19:11:53
+#0 : Weixin->show()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: echostr
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 15
+errorCode: 8
+errorTime: 2017-02-24 19:11:53
+#0 IWEB_PATH/classes/wechat.php(9): wechat->valid()
+#1 IWEB_PATH/lib/iweb.php(98): include(IWEB_PATH/classes/wechat.php)
+#2 : IWeb::autoload(wechat)
+#3 IWEB_PATH/controllers/weixin.php(26): spl_autoload_call(wechat)
+#4 : Weixin->show()
+#5 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#6 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#7 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#8 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#9 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: signature
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 70
+errorCode: 8
+errorTime: 2017-02-24 19:11:53
+#0 IWEB_PATH/classes/wechat.php(18): wechat->checkSignature()
+#1 IWEB_PATH/classes/wechat.php(9): wechat->valid()
+#2 IWEB_PATH/lib/iweb.php(98): include(IWEB_PATH/classes/wechat.php)
+#3 : IWeb::autoload(wechat)
+#4 IWEB_PATH/controllers/weixin.php(26): spl_autoload_call(wechat)
+#5 : Weixin->show()
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#9 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: timestamp
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 71
+errorCode: 8
+errorTime: 2017-02-24 19:11:53
+#0 IWEB_PATH/classes/wechat.php(18): wechat->checkSignature()
+#1 IWEB_PATH/classes/wechat.php(9): wechat->valid()
+#2 IWEB_PATH/lib/iweb.php(98): include(IWEB_PATH/classes/wechat.php)
+#3 : IWeb::autoload(wechat)
+#4 IWEB_PATH/controllers/weixin.php(26): spl_autoload_call(wechat)
+#5 : Weixin->show()
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#9 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: nonce
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 72
+errorCode: 8
+errorTime: 2017-02-24 19:11:53
+#0 IWEB_PATH/classes/wechat.php(18): wechat->checkSignature()
+#1 IWEB_PATH/classes/wechat.php(9): wechat->valid()
+#2 IWEB_PATH/lib/iweb.php(98): include(IWEB_PATH/classes/wechat.php)
+#3 : IWeb::autoload(wechat)
+#4 IWEB_PATH/controllers/weixin.php(26): spl_autoload_call(wechat)
+#5 : Weixin->show()
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#9 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: HTTP_RAW_POST_DATA
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 27
+errorCode: 8
+errorTime: 2017-02-24 19:11:53
+#0 IWEB_PATH/controllers/weixin.php(27): wechat->responseMsg()
+#1 : Weixin->show()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: goods_id
+errorFile: IWEB_PATH/controllers/weixin.php
+errorLine: 23
+errorCode: 8
+errorTime: 2017-02-24 19:12:05
+#0 : Weixin->show()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: echostr
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 15
+errorCode: 8
+errorTime: 2017-02-24 19:12:05
+#0 IWEB_PATH/classes/wechat.php(9): wechat->valid()
+#1 IWEB_PATH/lib/iweb.php(98): include(IWEB_PATH/classes/wechat.php)
+#2 : IWeb::autoload(wechat)
+#3 IWEB_PATH/controllers/weixin.php(26): spl_autoload_call(wechat)
+#4 : Weixin->show()
+#5 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#6 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#7 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#8 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#9 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: goods_id
+errorFile: IWEB_PATH/controllers/weixin.php
+errorLine: 23
+errorCode: 8
+errorTime: 2017-02-24 19:17:42
+#0 : Weixin->show()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: HTTP_RAW_POST_DATA
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 22
+errorCode: 8
+errorTime: 2017-02-24 19:17:42
+#0 IWEB_PATH/controllers/weixin.php(28): wechat->responseMsg()
+#1 : Weixin->show()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: goods_id
+errorFile: IWEB_PATH/controllers/weixin.php
+errorLine: 23
+errorCode: 8
+errorTime: 2017-02-24 19:17:47
+#0 : Weixin->show()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: goods_id
+errorFile: IWEB_PATH/controllers/weixin.php
+errorLine: 23
+errorCode: 8
+errorTime: 2017-02-24 19:17:57
+#0 : Weixin->show()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: HTTP_RAW_POST_DATA
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 22
+errorCode: 8
+errorTime: 2017-02-24 19:17:57
+#0 IWEB_PATH/controllers/weixin.php(28): wechat->responseMsg()
+#1 : Weixin->show()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: goods_id
+errorFile: IWEB_PATH/controllers/weixin.php
+errorLine: 23
+errorCode: 8
+errorTime: 2017-02-24 19:34:16
+#0 : Weixin->show()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: msgType
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 46
+errorCode: 8
+errorTime: 2017-02-24 19:34:16
+#0 IWEB_PATH/controllers/weixin.php(28): wechat->responseMsg()
+#1 : Weixin->show()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: contentStr
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 46
+errorCode: 8
+errorTime: 2017-02-24 19:34:16
+#0 IWEB_PATH/controllers/weixin.php(28): wechat->responseMsg()
+#1 : Weixin->show()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: goods_id
+errorFile: IWEB_PATH/controllers/weixin.php
+errorLine: 23
+errorCode: 8
+errorTime: 2017-02-24 19:34:29
+#0 : Weixin->show()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: HTTP_RAW_POST_DATA
+errorFile: IWEB_PATH/classes/wechat.php
+errorLine: 22
+errorCode: 8
+errorTime: 2017-02-24 19:34:29
+#0 IWEB_PATH/controllers/weixin.php(28): wechat->responseMsg()
+#1 : Weixin->show()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: goods_id
+errorFile: IWEB_PATH/controllers/weixin.php
+errorLine: 23
+errorCode: 8
+errorTime: 2017-02-24 19:35:05
+#0 : Weixin->show()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+

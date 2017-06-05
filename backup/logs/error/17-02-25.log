@@ -1,0 +1,126 @@
+<ERROR_BLOCK>
+errorInfo: Undefined variable: goods_id
+errorFile: IWEB_PATH/controllers/weixin.php
+errorLine: 23
+errorCode: 8
+errorTime: 2017-02-25 09:50:00
+#0 : Weixin->show()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: goods_id
+errorFile: IWEB_PATH/controllers/weixin.php
+errorLine: 23
+errorCode: 8
+errorTime: 2017-02-25 09:50:07
+#0 : Weixin->show()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: goods_id
+errorFile: IWEB_PATH/controllers/weixin.php
+errorLine: 23
+errorCode: 8
+errorTime: 2017-02-25 09:50:18
+#0 : Weixin->show()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: goods_id
+errorFile: IWEB_PATH/controllers/weixin.php
+errorLine: 23
+errorCode: 8
+errorTime: 2017-02-25 09:50:31
+#0 : Weixin->show()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: goods_id
+errorFile: IWEB_PATH/controllers/weixin.php
+errorLine: 23
+errorCode: 8
+errorTime: 2017-02-25 09:52:24
+#0 : Weixin->show()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: goods_id
+errorFile: IWEB_PATH/controllers/weixin.php
+errorLine: 23
+errorCode: 8
+errorTime: 2017-02-25 09:53:10
+#0 : Weixin->show()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: goods_id
+errorFile: IWEB_PATH/controllers/weixin.php
+errorLine: 23
+errorCode: 8
+errorTime: 2017-02-25 09:54:45
+#0 : Weixin->show()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: goods_id
+errorFile: IWEB_PATH/controllers/weixin.php
+errorLine: 23
+errorCode: 8
+errorTime: 2017-02-25 09:55:26
+#0 : Weixin->show()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(show)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Object of class ICache could not be converted to string
+errorFile: IWEB_PATH/controllers/site.php
+errorLine: 34
+errorCode: 4096
+errorTime: 2017-02-25 11:48:41
+#0 : Site->test()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(test)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+

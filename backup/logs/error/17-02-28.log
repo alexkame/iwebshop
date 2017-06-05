@@ -1,0 +1,461 @@
+<ERROR_BLOCK>
+errorInfo: Undefined variable: cIP
+errorFile: IWEB_PATH/classes/getip.php
+errorLine: 20
+errorCode: 8
+errorTime: 2017-02-28 11:12:34
+#0 IWEB_PATH/controllers/tools.php(20): GetIp::IpMessage(221.221.154.51)
+#1 : Tools->showad()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(showad)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: cIP
+errorFile: IWEB_PATH/classes/getip.php
+errorLine: 20
+errorCode: 8
+errorTime: 2017-02-28 11:12:35
+#0 IWEB_PATH/controllers/tools.php(20): GetIp::IpMessage(221.221.154.51)
+#1 : Tools->showad()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(showad)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: cIP
+errorFile: IWEB_PATH/classes/getip.php
+errorLine: 20
+errorCode: 8
+errorTime: 2017-02-28 11:12:45
+#0 IWEB_PATH/controllers/tools.php(20): GetIp::IpMessage(221.221.154.51)
+#1 : Tools->showad()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(showad)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: cIP
+errorFile: IWEB_PATH/classes/getip.php
+errorLine: 20
+errorCode: 8
+errorTime: 2017-02-28 11:13:30
+#0 IWEB_PATH/controllers/tools.php(20): GetIp::IpMessage(221.221.154.51)
+#1 : Tools->showad()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(showad)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: cIP
+errorFile: IWEB_PATH/classes/getip.php
+errorLine: 20
+errorCode: 8
+errorTime: 2017-02-28 11:13:54
+#0 IWEB_PATH/controllers/tools.php(20): GetIp::IpMessage(221.221.154.51)
+#1 : Tools->showad()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(showad)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: cIP
+errorFile: IWEB_PATH/classes/getip.php
+errorLine: 20
+errorCode: 8
+errorTime: 2017-02-28 11:14:35
+#0 IWEB_PATH/controllers/tools.php(20): GetIp::IpMessage(221.221.154.51)
+#1 : Tools->showad()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(showad)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Trying to get property of non-object
+errorFile: IWEB_PATH/classes/getip.php
+errorLine: 23
+errorCode: 8
+errorTime: 2017-02-28 11:14:35
+#0 IWEB_PATH/controllers/tools.php(20): GetIp::IpMessage(221.221.154.51)
+#1 : Tools->showad()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(showad)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Trying to get property of non-object
+errorFile: IWEB_PATH/classes/getip.php
+errorLine: 23
+errorCode: 8
+errorTime: 2017-02-28 11:14:35
+#0 IWEB_PATH/controllers/tools.php(20): GetIp::IpMessage(221.221.154.51)
+#1 : Tools->showad()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(showad)
+#5 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: info
+errorFile: IWEB_PATH/controllers/tools.php
+errorLine: 722
+errorCode: 8
+errorTime: 2017-02-28 11:33:02
+#0 : Tools->ad_edit_act()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(ad_edit_act)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: info
+errorFile: IWEB_PATH/controllers/tools.php
+errorLine: 723
+errorCode: 8
+errorTime: 2017-02-28 11:33:02
+#0 : Tools->ad_edit_act()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(ad_edit_act)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: INSERT INTO iwebshop_ad_manage ( `content`,`name`,`position_id`,`type`,`link`,`start_time`,`end_time`,`description`,`order`,`goods_cat_id` ) VALUES ( '','','','','','','','','0','0' ) 
+ -- Cannot add or update a child row: a foreign key constraint fails (`iwebshop`.`iwebshop_ad_manage`, CONSTRAINT `iwebshop_ad_manage_ibfk_1` FOREIGN KEY (`position_id`) REFERENCES `iwebshop_ad_position` (`id`) ON DELETE SET NULL ON UPDATE SET NULL)
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 152
+excepCode: 1000
+excepTime: 2017-02-28 11:39:40
+#0 IWEB_PATH/lib/web/model/model_class.php(125): IDB->query(INSERT INTO iwebshop_ad_manage ( `content`,`name`,`position_id`,`type`,`link`,`start_time`,`end_time`,`description`,`order`,`goods_cat_id` ) VALUES ( '','','','','','','','','0','0' ) )
+#1 IWEB_PATH/controllers/tools.php(726): IModel->add()
+#2 : Tools->ad_edit_act()
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(ad_edit_act)
+#6 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Array to string conversion
+errorFile: IWEB_PATH/controllers/tools.php
+errorLine: 20
+errorCode: 8
+errorTime: 2017-02-28 14:44:17
+#0 : Tools->aa()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(aa)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Array to string conversion
+errorFile: IWEB_PATH/controllers/tools.php
+errorLine: 20
+errorCode: 8
+errorTime: 2017-02-28 14:44:20
+#0 : Tools->aa()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(aa)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Array to string conversion
+errorFile: IWEB_PATH/controllers/tools.php
+errorLine: 20
+errorCode: 8
+errorTime: 2017-02-28 14:44:27
+#0 : Tools->aa()
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(aa)
+#4 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: SELECT * FROM iwebshop_ad_manage,iwebshop_region WHERE position_id=1 and region_id=110000 and goods_cat_id = 0 and start_time < '2017-02-28 14:49:04' AND end_time > '2017-02-28 14:49:04' where ad_manage.id=region.ad_id  ORDER BY `order` ASC  limit 50000
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where ad_manage.id=region.ad_id  ORDER BY `order` ASC  limit 50000' at line 1
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 119
+excepCode: 1000
+excepTime: 2017-02-28 14:49:04
+#0 IWEB_PATH/lib/web/model/model_class.php(200): IDB->query(SELECT * FROM iwebshop_ad_manage,iwebshop_region WHERE position_id=1 and region_id=110000 and goods_cat_id = 0 and start_time < '2017-02-28 14:49:04' AND end_time > '2017-02-28 14:49:04' where ad_manage.id=region.ad_id  ORDER BY `order` ASC  limit 50000)
+#1 IWEB_PATH/controllers/tools.php(20): IModel->query(position_id=1 and region_id=110000 and goods_cat_id = 0 and start_time < '2017-02-28 14:49:04' AND end_time > '2017-02-28 14:49:04' where ad_manage.id=region.ad_id  ORDER BY `order` ASC )
+#2 : Tools->aa()
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(aa)
+#6 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: SELECT * FROM iwebshop_ad_manage,iwebshop_region WHERE position_id=1 and region_id=110000 and goods_cat_id = 0 and start_time < '2017-02-28 14:50:52' AND end_time > '2017-02-28 14:50:52' and ad_manage.id=region.ad_id  ORDER BY `order` ASC  limit 50000
+ -- Unknown column 'ad_manage.id' in 'where clause'
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 119
+excepCode: 1000
+excepTime: 2017-02-28 14:50:52
+#0 IWEB_PATH/lib/web/model/model_class.php(200): IDB->query(SELECT * FROM iwebshop_ad_manage,iwebshop_region WHERE position_id=1 and region_id=110000 and goods_cat_id = 0 and start_time < '2017-02-28 14:50:52' AND end_time > '2017-02-28 14:50:52' and ad_manage.id=region.ad_id  ORDER BY `order` ASC  limit 50000)
+#1 IWEB_PATH/controllers/tools.php(20): IModel->query(position_id=1 and region_id=110000 and goods_cat_id = 0 and start_time < '2017-02-28 14:50:52' AND end_time > '2017-02-28 14:50:52' and ad_manage.id=region.ad_id  ORDER BY `order` ASC )
+#2 : Tools->aa()
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(aa)
+#6 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: SELECT * FROM iwebshop_ad_manage,iwebshop_region WHERE  ad_manage id = ad_id and position_id=1 and region_id=110000 and goods_cat_id = 0 and start_time < '2017-02-28 14:53:05' AND end_time > '2017-02-28 14:53:05' and  ORDER BY `order` ASC  limit 50000
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'id = ad_id and position_id=1 and region_id=110000 and goods_cat_id = 0 and start' at line 1
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 119
+excepCode: 1000
+excepTime: 2017-02-28 14:53:05
+#0 IWEB_PATH/lib/web/model/model_class.php(200): IDB->query(SELECT * FROM iwebshop_ad_manage,iwebshop_region WHERE  ad_manage id = ad_id and position_id=1 and region_id=110000 and goods_cat_id = 0 and start_time < '2017-02-28 14:53:05' AND end_time > '2017-02-28 14:53:05' and  ORDER BY `order` ASC  limit 50000)
+#1 IWEB_PATH/controllers/tools.php(20): IModel->query( ad_manage id = ad_id and position_id=1 and region_id=110000 and goods_cat_id = 0 and start_time < '2017-02-28 14:53:05' AND end_time > '2017-02-28 14:53:05' and  ORDER BY `order` ASC )
+#2 : Tools->aa()
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(aa)
+#6 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: SELECT * FROM iwebshop_ad_manage,iwebshop_region WHERE  iwebshop_ad_manage.id = iwebshop_region.ad_id and position_id=1 and region_id=110000 and goods_cat_id = 0 and start_time < '2017-02-28 14:54:23' AND end_time > '2017-02-28 14:54:23' and  ORDER BY `order` ASC  limit 50000
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `order` ASC  limit 50000' at line 1
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 119
+excepCode: 1000
+excepTime: 2017-02-28 14:54:23
+#0 IWEB_PATH/lib/web/model/model_class.php(200): IDB->query(SELECT * FROM iwebshop_ad_manage,iwebshop_region WHERE  iwebshop_ad_manage.id = iwebshop_region.ad_id and position_id=1 and region_id=110000 and goods_cat_id = 0 and start_time < '2017-02-28 14:54:23' AND end_time > '2017-02-28 14:54:23' and  ORDER BY `order` ASC  limit 50000)
+#1 IWEB_PATH/controllers/tools.php(20): IModel->query( iwebshop_ad_manage.id = iwebshop_region.ad_id and position_id=1 and region_id=110000 and goods_cat_id = 0 and start_time < '2017-02-28 14:54:23' AND end_time > '2017-02-28 14:54:23' and  ORDER BY `order` ASC )
+#2 : Tools->aa()
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(aa)
+#6 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: current() expects parameter 1 to be array, string given
+errorFile: IWEB_PATH/runtime/views/sysdefault/tools/showad.php
+errorLine: 48
+errorCode: 2
+errorTime: 2017-02-28 14:57:07
+#0 IWEB_PATH/runtime/views/sysdefault/tools/showad.php(48): current(/plugin/plugin_list)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(115): require(IWEB_PATH/runtime/views/sysdefault/tools/showad.php)
+#2 IWEB_PATH/lib/web/controller/controllerbase_class.php(81): IControllerBase->requireFile(IWEB_PATH/runtime/views/sysdefault/tools/showad.php)
+#3 IWEB_PATH/lib/web/controller/controller_class.php(166): IControllerBase->renderView(IWEB_PATH/views/sysdefault/tools/showad)
+#4 IWEB_PATH/lib/web/action/view_action.php(32): IController->render(IWEB_PATH/views/sysdefault/tools/showad)
+#5 IWEB_PATH/lib/web/controller/controller_class.php(367): IViewAction->run()
+#6 IWEB_PATH/controllers/tools.php(31): IController->redirect(showad)
+#7 : Tools->showad()
+#8 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#9 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#10 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(showad)
+#11 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#12 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Invalid argument supplied for foreach()
+errorFile: IWEB_PATH/runtime/views/sysdefault/tools/showad.php
+errorLine: 48
+errorCode: 2
+errorTime: 2017-02-28 14:57:07
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(115): require(IWEB_PATH/runtime/views/sysdefault/tools/showad.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(81): IControllerBase->requireFile(IWEB_PATH/runtime/views/sysdefault/tools/showad.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(166): IControllerBase->renderView(IWEB_PATH/views/sysdefault/tools/showad)
+#3 IWEB_PATH/lib/web/action/view_action.php(32): IController->render(IWEB_PATH/views/sysdefault/tools/showad)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(367): IViewAction->run()
+#5 IWEB_PATH/controllers/tools.php(31): IController->redirect(showad)
+#6 : Tools->showad()
+#7 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#8 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#9 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(showad)
+#10 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#11 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: key() expects parameter 1 to be array, string given
+errorFile: IWEB_PATH/runtime/views/sysdefault/tools/showad.php
+errorLine: 81
+errorCode: 2
+errorTime: 2017-02-28 14:57:09
+#0 IWEB_PATH/runtime/views/sysdefault/tools/showad.php(81): key(/plugin/plugin_list)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(115): require(IWEB_PATH/runtime/views/sysdefault/tools/showad.php)
+#2 IWEB_PATH/lib/web/controller/controllerbase_class.php(81): IControllerBase->requireFile(IWEB_PATH/runtime/views/sysdefault/tools/showad.php)
+#3 IWEB_PATH/lib/web/controller/controller_class.php(166): IControllerBase->renderView(IWEB_PATH/views/sysdefault/tools/showad)
+#4 IWEB_PATH/lib/web/action/view_action.php(32): IController->render(IWEB_PATH/views/sysdefault/tools/showad)
+#5 IWEB_PATH/lib/web/controller/controller_class.php(367): IViewAction->run()
+#6 IWEB_PATH/controllers/tools.php(31): IController->redirect(showad)
+#7 : Tools->showad()
+#8 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#9 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#10 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(showad)
+#11 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#12 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: current() expects parameter 1 to be array, string given
+errorFile: IWEB_PATH/runtime/views/sysdefault/tools/showad.php
+errorLine: 48
+errorCode: 2
+errorTime: 2017-02-28 14:57:20
+#0 IWEB_PATH/runtime/views/sysdefault/tools/showad.php(48): current(/plugin/plugin_list)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(115): require(IWEB_PATH/runtime/views/sysdefault/tools/showad.php)
+#2 IWEB_PATH/lib/web/controller/controllerbase_class.php(81): IControllerBase->requireFile(IWEB_PATH/runtime/views/sysdefault/tools/showad.php)
+#3 IWEB_PATH/lib/web/controller/controller_class.php(166): IControllerBase->renderView(IWEB_PATH/views/sysdefault/tools/showad)
+#4 IWEB_PATH/lib/web/action/view_action.php(32): IController->render(IWEB_PATH/views/sysdefault/tools/showad)
+#5 IWEB_PATH/lib/web/controller/controller_class.php(367): IViewAction->run()
+#6 IWEB_PATH/controllers/tools.php(31): IController->redirect(showad)
+#7 : Tools->showad()
+#8 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#9 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#10 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(showad)
+#11 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#12 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Invalid argument supplied for foreach()
+errorFile: IWEB_PATH/runtime/views/sysdefault/tools/showad.php
+errorLine: 48
+errorCode: 2
+errorTime: 2017-02-28 14:57:20
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(115): require(IWEB_PATH/runtime/views/sysdefault/tools/showad.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(81): IControllerBase->requireFile(IWEB_PATH/runtime/views/sysdefault/tools/showad.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(166): IControllerBase->renderView(IWEB_PATH/views/sysdefault/tools/showad)
+#3 IWEB_PATH/lib/web/action/view_action.php(32): IController->render(IWEB_PATH/views/sysdefault/tools/showad)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(367): IViewAction->run()
+#5 IWEB_PATH/controllers/tools.php(31): IController->redirect(showad)
+#6 : Tools->showad()
+#7 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#8 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#9 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(showad)
+#10 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#11 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: key() expects parameter 1 to be array, string given
+errorFile: IWEB_PATH/runtime/views/sysdefault/tools/showad.php
+errorLine: 81
+errorCode: 2
+errorTime: 2017-02-28 14:57:20
+#0 IWEB_PATH/runtime/views/sysdefault/tools/showad.php(81): key(/plugin/plugin_list)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(115): require(IWEB_PATH/runtime/views/sysdefault/tools/showad.php)
+#2 IWEB_PATH/lib/web/controller/controllerbase_class.php(81): IControllerBase->requireFile(IWEB_PATH/runtime/views/sysdefault/tools/showad.php)
+#3 IWEB_PATH/lib/web/controller/controller_class.php(166): IControllerBase->renderView(IWEB_PATH/views/sysdefault/tools/showad)
+#4 IWEB_PATH/lib/web/action/view_action.php(32): IController->render(IWEB_PATH/views/sysdefault/tools/showad)
+#5 IWEB_PATH/lib/web/controller/controller_class.php(367): IViewAction->run()
+#6 IWEB_PATH/controllers/tools.php(31): IController->redirect(showad)
+#7 : Tools->showad()
+#8 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#9 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#10 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(showad)
+#11 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#12 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: current() expects parameter 1 to be array, string given
+errorFile: IWEB_PATH/runtime/views/sysdefault/tools/showad.php
+errorLine: 48
+errorCode: 2
+errorTime: 2017-02-28 14:57:49
+#0 IWEB_PATH/runtime/views/sysdefault/tools/showad.php(48): current(/plugin/plugin_list)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(115): require(IWEB_PATH/runtime/views/sysdefault/tools/showad.php)
+#2 IWEB_PATH/lib/web/controller/controllerbase_class.php(81): IControllerBase->requireFile(IWEB_PATH/runtime/views/sysdefault/tools/showad.php)
+#3 IWEB_PATH/lib/web/controller/controller_class.php(166): IControllerBase->renderView(IWEB_PATH/views/sysdefault/tools/showad)
+#4 IWEB_PATH/lib/web/action/view_action.php(32): IController->render(IWEB_PATH/views/sysdefault/tools/showad)
+#5 IWEB_PATH/lib/web/controller/controller_class.php(367): IViewAction->run()
+#6 IWEB_PATH/controllers/tools.php(31): IController->redirect(showad)
+#7 : Tools->showad()
+#8 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#9 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#10 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(showad)
+#11 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#12 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Invalid argument supplied for foreach()
+errorFile: IWEB_PATH/runtime/views/sysdefault/tools/showad.php
+errorLine: 48
+errorCode: 2
+errorTime: 2017-02-28 14:57:49
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(115): require(IWEB_PATH/runtime/views/sysdefault/tools/showad.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(81): IControllerBase->requireFile(IWEB_PATH/runtime/views/sysdefault/tools/showad.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(166): IControllerBase->renderView(IWEB_PATH/views/sysdefault/tools/showad)
+#3 IWEB_PATH/lib/web/action/view_action.php(32): IController->render(IWEB_PATH/views/sysdefault/tools/showad)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(367): IViewAction->run()
+#5 IWEB_PATH/controllers/tools.php(31): IController->redirect(showad)
+#6 : Tools->showad()
+#7 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#8 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#9 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(showad)
+#10 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#11 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: key() expects parameter 1 to be array, string given
+errorFile: IWEB_PATH/runtime/views/sysdefault/tools/showad.php
+errorLine: 81
+errorCode: 2
+errorTime: 2017-02-28 14:57:49
+#0 IWEB_PATH/runtime/views/sysdefault/tools/showad.php(81): key(/plugin/plugin_list)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(115): require(IWEB_PATH/runtime/views/sysdefault/tools/showad.php)
+#2 IWEB_PATH/lib/web/controller/controllerbase_class.php(81): IControllerBase->requireFile(IWEB_PATH/runtime/views/sysdefault/tools/showad.php)
+#3 IWEB_PATH/lib/web/controller/controller_class.php(166): IControllerBase->renderView(IWEB_PATH/views/sysdefault/tools/showad)
+#4 IWEB_PATH/lib/web/action/view_action.php(32): IController->render(IWEB_PATH/views/sysdefault/tools/showad)
+#5 IWEB_PATH/lib/web/controller/controller_class.php(367): IViewAction->run()
+#6 IWEB_PATH/controllers/tools.php(31): IController->redirect(showad)
+#7 : Tools->showad()
+#8 IWEB_PATH/lib/web/action/inline_action.php(24): call_user_func()
+#9 IWEB_PATH/lib/web/controller/controller_class.php(115): IInlineAction->run()
+#10 IWEB_PATH/lib/core/webapplication_class.php(75): IController->run(showad)
+#11 IWEB_PATH/lib/core/application_class.php(94): IWebApplication->execRequest()
+#12 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+

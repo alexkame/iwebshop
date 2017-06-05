@@ -1,0 +1,90 @@
+<div class="headbar">
+    <div class="position"><span>营销</span><span>></span><span>激活码管理</span><span>></span><span>激活码列表</span></div>
+    <div class="operating">
+        <a href="javascript:;" onclick="event_link('{url:/market/code_edit}')"><button class="operating_btn" type="button"><span class="addition">生成激活码</span></button></a>
+        <a href="javascript:void(0)" onclick="selectAll('id[]');"><button class="operating_btn" type="button"><span class="sel_all">全选</span></button></a>
+        <a href="javascript:void(0)" onclick="document.forms[0].action='{url:/market/ticket_excel}';delModel({msg:'是否要生成excel表格'});"><button class="operating_btn" type="button"><span class="export">生成EXCEL</span></button></a>
+    </div>
+</div>
+<div class="content">
+    <form method='post' action='#'>
+        <table class="list_table">
+            <colgroup>
+                <col width="40px" />
+                <col width="120px" />
+                <col width="70px" />
+                <col width="70px" />
+                <col width="180px" />
+                <col width="140px" />
+            </colgroup>
+
+            <thead>
+            <tr>
+                <th>选择</th>
+                <th>激活码</th>
+                <th>面值</th>
+                <th>状态</th>
+                <th>有效期</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            <?php foreach($list as $k=>$v){?>
+            <tr>
+                <td><input type='checkbox' name='id[]' value='<?php echo $item["id"];?>'/></td>
+                <td><?php echo $v['code'];?></td>
+                <td><?php echo $v['mianzhi'];?>元</td>
+                <td><?php if($v['status'] == 1){
+                        echo '已激活';
+                    }else if($v['status'] == 0){
+                        echo '未激活';
+                    }else{
+                        echo '已过期';
+                    }?></td>
+                <td><?php echo $v['start_time'];?> ～ <?php echo $v['end_time'];?></td>
+                <td>
+                    <a href='{url:/market/ticket_edit/id/$item[id]}'>
+                        <img class="operator" src="{skin:images/admin/icon_edit.gif}" alt="修改" title="修改" />
+                    </a>
+
+                    <a href='{url:/market/ticket_more_list/ticket_id/$item[id]}'>
+                        <img class="operator" src="{skin:images/admin/icon_check.gif}" alt="查看详情" title="查看详情" />
+                    </a>
+
+                    <a href='javascript:create_dialog("{$item['id']}");'>
+                    <img class="operator" src="{skin:images/admin/icon_add.gif}" alt="生成实体代金券" title="生成实体优惠券" />
+                    </a>
+
+                    {if:$ticket_num > 0}
+                    <a href='javascript:void(0)' onclick="delModel({msg:'是否要生成excel表格？',link:'{url:/market/ticket_excel/id/$item[id]}'});">
+                        <img class="operator" src="{skin:images/admin/icon_down.gif}" alt="生成EXCEL" title="生成EXCEL" />
+                    </a>
+                    {/if}
+
+                    <a href='javascript:void(0)' onclick="delModel({link:'{url:/market/ticket_del/id/$item[id]}'});">
+                        <img class="operator" src="{skin:images/admin/icon_del.gif}" alt="删除" title="删除" />
+                    </a>
+                </td>
+            </tr>
+            <?php }?>
+            </tbody>
+        </table>
+    </form>
+    <span id="jihuo">代金券激活</span>
+</div>
+
+<script type='text/javascript'>
+    $("#jihuo").click(function(){
+        var str=prompt("请输入您的激活码:",'');
+        if(str)
+        {
+            $.get('{url:/market/daijin}',{'str':str},function(obj){
+            var mianzhi = obj.mianzhi;
+                var start_time = obj.start_time;
+                var end_time = obj.end_time;
+                alert('恭喜你获得'+mianzhi+'元代金券，有效期'+start_time+'至'+end_time+'请于有效期内使用，过期作废')
+        },'json')
+        }
+    })
+
+</script>
